@@ -39,3 +39,25 @@
  * @return {string} repeated num times
  * i.e repeatString("money", 3) => "moneymoneymoney".
  */
+
+/**
+ * Below here we see a module.exports which is set to an object with a bunch of keys.
+ * The module.exports syntax is a built-in javascript keyword that
+ * allows functionality from this file to be used in other files.  
+ * Here we are exporting an object with a bunch of keys that will reference 
+ * the functions you have made. After you are done implementing a function,
+ * change the 'null' to reference the corresponding function you have just created.
+ * Then go into your terminal and run 'npm test' to see if the tests pass for your function.
+ *
+ * The reason why we export our functions out of this file is because behind the scenes,
+ * the test-runner is importing this file so that it can gain access to the functions
+ * and run tests on it.
+ */
+
+module.exports = {
+    firstReverse: null,
+    alphaOrder: null,
+    vowelCount: null,
+    timeConvert: null,
+    repeatString: null
+}
