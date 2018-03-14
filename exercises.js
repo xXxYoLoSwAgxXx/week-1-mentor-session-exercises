@@ -15,9 +15,9 @@
  */
 
  /** Function: vowelCount
- * The function will take the str parameter being passed in and
+ * The function will take the num parameter being passed in and
  * return the number of vowels in the string
- * @param {string} str
+ * @param {string} num
  * @return {number} count of vowels
  * ie: "oreo" => 3
  */
